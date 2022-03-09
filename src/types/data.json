@@ -1,0 +1,221 @@
+{
+  "BannerData": [
+    {
+      "id": 0,
+      "title": "ESL 학생이 실수하는 이유?",
+      "date": "3월 13일(일) 저녁 21:00 (Asia/Seoul)",
+      "tutor": "David",
+      "avatar": "https://d38emex6h5e12i.cloudfront.net/avatar/59df5329555856a5e5001586dbf89675080449703133cde8005a0e498297bc52_7491c5675490.jpg",
+      "university": "Trinity Colleage Dublin, University of Dublin",
+      "currentCount": 39,
+      "limitCount": 300
+    },
+    {
+      "id": 1,
+      "title": "영어를 잘하기 위한 방법은?",
+      "date": "3월 15일(화) 저녁 20:00 (Asia/Seoul)",
+      "tutor": "Simon",
+      "avatar": "https://d38emex6h5e12i.cloudfront.net/avatar/59df5329555856a5e5001586dbf89675080449703133cde8005a0e498297bc52_7491c5675490.jpg",
+      "university": "Trinity Colleage Dublin, University of Dublin",
+      "currentCount": 12,
+      "limitCount": 250
+    }
+  ],
+  "WebinarData": [
+    {
+      "title": "추천 웨비나",
+      "web_tag": "Featured Webinars",
+      "data": [
+        {
+          "id": 0,
+          "tag": "Idioms",
+          "image": "https://s3.ap-northeast-2.amazonaws.com/ringleimages/ringlecontents/image/0d9ea46ced09.jpg?w=250",
+          "title": "[Clip] 날씨 어휘를 사용한 표현: Ride out the storm",
+          "tutor": "Elizabeth",
+          "avatar": "https://d38emex6h5e12i.cloudfront.net/avatar/00dfe2167d3c_1b14d7e1737b.jpg?w=40",
+          "university": "Stanford University",
+          "bookmark": false
+        },
+        {
+          "id": 1,
+          "tag": "Study Tips",
+          "image": "https://d2dwpq8l35sujt.cloudfront.net/ringlecontents/dd05fb9256aa/image/dd05fb9256aa_6c9347c181d1.png?w=250",
+          "title": "링글 활용법 A to Z",
+          "tutor": "Jinyoung",
+          "avatar": "https://d38emex6h5e12i.cloudfront.net/avatar/3719d03634a159dba7182f04c3bb86c3f36a2824e0b1e03619f79a71b97e80a9_5829f9f773b5.png?w=40",
+          "university": "Ringle",
+          "bookmark": false
+        },
+
+        {
+          "id": 2,
+          "tag": "Ringle Radio",
+          "image": "https://d2dwpq8l35sujt.cloudfront.net/ringlecontents/image/de9d962e1ee4_low.jpg?w=250",
+          "title": "축구부, 축구 심판, 축구 수업",
+          "tutor": "Matt",
+          "avatar": "https://d38emex6h5e12i.cloudfront.net/avatar/f5b2da6b9c3d26cbdd46b4d69a5a0ef67467721ba31b1c0be8d5b1cf548c45ab_15b9d5fc35e3.jpg?w=40",
+          "university": "Vanderbilt University",
+          "bookmark": false
+        },
+        {
+          "id": 3,
+          "tag": "Ringle Live",
+          "image": "https://d2dwpq8l35sujt.cloudfront.net/ringlecontents/image/ee38e12bf6ec_low.png?w=250",
+          "title": "비디오 게임의 영향",
+          "tutor": "David",
+          "avatar": "https://d38emex6h5e12i.cloudfront.net/avatar/59df5329555856a5e5001586dbf89675080449703133cde8005a0e498297bc52_7491c5675490.jpg?w=40",
+          "university": "Trinity College Dublin, University of Dublin",
+          "bookmark": false
+        },
+        {
+          "id": 4,
+          "tag": "Business/Career",
+          "image": "https://d2dwpq8l35sujt.cloudfront.net/ringlecontents/dd05fb9256aa/image/dd05fb9256aa_f4762923687f.png?w=250",
+          "title": "데이터 프레젠테이션: 2020년 중반 세계 주식시장 돌아보기",
+          "tutor": "Charles",
+          "avatar": "https://s3-ap-northeast-2.amazonaws.com/ringleimageassets/images/tutors/53582_low.jpeg?w=40",
+          "university": "Harvard University",
+          "bookmark": false
+        }
+      ]
+    },
+    {
+      "title": "인기 웨비나",
+      "web_tag": "Popular",
+      "data": [
+        {
+          "id": 0,
+          "tag": "Ringle Live",
+          "image": "https://d2dwpq8l35sujt.cloudfront.net/ringlecontents/image/01ce8cb18095_low.png?w=250",
+          "title": "사랑이란 무엇일까요?",
+          "tutor": "Jackie",
+          "avatar": "https://s3-ap-northeast-2.amazonaws.com/ringleimageassets/avatar/6f062ba74db6_bbd05d342f55.jpg?w=40",
+          "university": "Yale University",
+          "bookmark": false
+        },
+        {
+          "id": 1,
+          "tag": "Idioms",
+          "image": "https://d2dwpq8l35sujt.cloudfront.net/ringlecontents/image/3e1f07c8d9ba_low.jpg?w=250",
+          "title": "[Clip] 날씨 어휘를 사용한 표현: Weather the storm",
+          "tutor": "Elizabeth",
+          "avatar": "https://d38emex6h5e12i.cloudfront.net/avatar/00dfe2167d3c_1b14d7e1737b.jpg?w=40",
+          "university": "Stanford University",
+          "bookmark": false
+        },
+        {
+          "id": 2,
+          "tag": "Study Tips",
+          "image": "https://d2dwpq8l35sujt.cloudfront.net/ringlecontents/dd05fb9256aa/image/dd05fb9256aa_6c9347c181d1.png?w=250",
+          "title": "링글 활용법 A to Z",
+          "tutor": "Jinyoung",
+          "avatar": "https://d38emex6h5e12i.cloudfront.net/avatar/3719d03634a159dba7182f04c3bb86c3f36a2824e0b1e03619f79a71b97e80a9_5829f9f773b5.png?w=40",
+          "university": "Ringle",
+          "bookmark": false
+        },
+        {
+          "id": 3,
+          "tag": "Ringle Live",
+          "image": "https://d2dwpq8l35sujt.cloudfront.net/ringlecontents/image/ee38e12bf6ec_low.png?w=250",
+          "title": "비디오 게임의 영향",
+          "tutor": "David",
+          "avatar": "https://d38emex6h5e12i.cloudfront.net/avatar/59df5329555856a5e5001586dbf89675080449703133cde8005a0e498297bc52_7491c5675490.jpg?w=40",
+          "university": "Trinity College Dublin, University of Dublin",
+          "bookmark": false
+        },
+        {
+          "id": 4,
+          "tag": "Interview",
+          "image": "https://d2dwpq8l35sujt.cloudfront.net/ringlecontents/207e0ab5ede0f4b4b45f96f196fd960d9ff457b9c55b567d617ff884670723c6/image/207e0ab5ede0f4b4b45f96f196fd960d9ff457b9c55b567d617ff884670723c6_eacdd7683ac9.png?w=250",
+          "title": "면접에서 자기소개 잘하는 법",
+          "tutor": "Jade",
+          "avatar": "https://d38emex6h5e12i.cloudfront.net/avatar/e1a010ed2c231c3cbd76ca44a5889624e9ebb1cafe14415275b40d0a5942ed59_73761d6f0771?w=40",
+          "university": "University of Pennsylvania",
+          "bookmark": false
+        }
+      ]
+    },
+    {
+      "title": "링글 Radio 영상",
+      "web_tag": "Ringle Radio",
+      "data": [
+        {
+          "id": 0,
+          "tag": "Ringle Radio",
+          "image": "https://d2dwpq8l35sujt.cloudfront.net/ringlecontents/ac9e00746700e6d7e1bc2b09bd38734caf343c30615fa0f7fca85f400dd0d144/image/ac9e00746700e6d7e1bc2b09bd38734caf343c30615fa0f7fca85f400dd0d144_7e2d785fac25.jpg?w=250",
+          "title": "뉴욕 박물관 완전정복",
+          "tutor": "Joseph",
+          "avatar": "https://s3-ap-northeast-2.amazonaws.com/ringleimageassets/avatar/ed6d985359cc6f1b21f257b5a90b223c5eea11cceb33fc3ca5304c110d1546ba_a018daf8b653.jpg?w=40",
+          "university": "University of Toronto",
+          "bookmark": false
+        },
+        {
+          "id": 1,
+          "tag": "Ringle Radio",
+          "image": "https://d2dwpq8l35sujt.cloudfront.net/ringlecontents/image/de9d962e1ee4_low.jpg?w=250",
+          "title": "축구부, 축구 심판, 축구 수업",
+          "tutor": "Matt",
+          "avatar": "https://d38emex6h5e12i.cloudfront.net/avatar/f5b2da6b9c3d26cbdd46b4d69a5a0ef67467721ba31b1c0be8d5b1cf548c45ab_15b9d5fc35e3.jpg?w=40",
+          "university": "Vanderbilt University",
+          "bookmark": false
+        },
+        {
+          "id": 2,
+          "tag": "Ringle Radio",
+          "image": "https://d2dwpq8l35sujt.cloudfront.net/ringlecontents/ac9e00746700e6d7e1bc2b09bd38734caf343c30615fa0f7fca85f400dd0d144/image/ac9e00746700e6d7e1bc2b09bd38734caf343c30615fa0f7fca85f400dd0d144_311c47add2f5.jpg?w=250",
+          "title": "LA 박물관 완전정복",
+          "tutor": "Joseph",
+          "avatar": "https://s3-ap-northeast-2.amazonaws.com/ringleimageassets/avatar/ed6d985359cc6f1b21f257b5a90b223c5eea11cceb33fc3ca5304c110d1546ba_a018daf8b653.jpg?w=40",
+          "university": "University of Toronto",
+          "bookmark": false
+        },
+        {
+          "id": 3,
+          "tag": "Ringle Radio",
+          "image": "https://d2dwpq8l35sujt.cloudfront.net/ringlecontents/dd05fb9256aa/image/dd05fb9256aa_f4762923687f.png?w=250",
+          "title": "데이터 프레젠테이션: 2020년 중반 세계 주식시장 돌아보기",
+          "tutor": "Charles",
+          "avatar": "https://s3-ap-northeast-2.amazonaws.com/ringleimageassets/images/tutors/53582_low.jpeg?w=40",
+          "university": "Harvard University",
+          "bookmark": false
+        },
+        {
+          "id": 4,
+          "tag": "Ringle Radio",
+          "image": "https://s3.ap-northeast-2.amazonaws.com/ringleimages/ringlecontents/image/0d9ea46ced09.jpg?w=250",
+          "title": "[Clip] 날씨 어휘를 사용한 표현: Ride out the storm",
+          "tutor": "Elizabeth",
+          "avatar": "https://d38emex6h5e12i.cloudfront.net/avatar/00dfe2167d3c_1b14d7e1737b.jpg?w=40",
+          "university": "Stanford University",
+          "bookmark": false
+        }
+      ]
+    }
+  ],
+  "LectureList": [
+    {
+      "id": 0,
+      "title": "스피킹에는 기세가 중요하다",
+      "time": "10:46",
+      "url": "https://ringlecontents.s3.ap-northeast-2.amazonaws.com/webinar/video/253/1.mp4"
+    },
+    {
+      "id": 1,
+      "title": "공부를 위한 공부를 하지 마세요",
+      "time": "12:48",
+      "url": "https://ringlecontents.s3.ap-northeast-2.amazonaws.com/webinar/video/253/2.mp4"
+    },
+    {
+      "id": 2,
+      "title": "실습! 따라해보세여",
+      "time": "9:47",
+      "url": "https://ringlecontents.s3.ap-northeast-2.amazonaws.com/webinar/video/253/3.mp4"
+    },
+    {
+      "id": 3,
+      "title": "아는 것, 익숙한 것에 계속 연결시키자",
+      "time": "10:41",
+      "url": "https://ringlecontents.s3.ap-northeast-2.amazonaws.com/webinar/video/253/4.mp4"
+    }
+  ]
+}

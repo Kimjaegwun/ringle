@@ -51,7 +51,7 @@ const OtherWebinar = ({handleOtherToast}: Props) => {
       }}
       removeClippedSubviews={true}
       ListFooterComponent={() => {
-        return <View style={{height: 300}} />;
+        return <View style={{height: 350}} />;
       }}
     />
   );

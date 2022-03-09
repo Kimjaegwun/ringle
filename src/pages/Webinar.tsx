@@ -9,7 +9,6 @@ import WebinarCard from '../component/webinar';
 import {checkBookmark} from '../redux/slice';
 import {WebinarDetailNavigationProp, WebinarType} from '../types';
 import ToastModal from '../component/toast';
-import {toKeyAlias} from '@babel/types';
 
 type Props = {
   route: {

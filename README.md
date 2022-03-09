@@ -1,30 +1,30 @@
-### `create-react-app`
-
-next.js와 고민하였으나 실제 배포단계가 아니고 페이지의 갯수가 적어 CSR으로 구성하여도 괜찮다고 판단하여 create-react-app을 사용하였습니다.
-그리고 webpack, babel등 개발 환경을 따로 구축하지 않아도 되는 장점이 있습니다.
-
 ### `typescript`
 
-type을 각 object마다 작상하여 코드에 안정성을 더했습니다.
-props 활용에 있어 type을 더해 오타로 인한 시간을 줄일 수 있었습니다.
+type 작성을 통해 코드에 목적을 명시하고 타입의 변수나 함수들에서 타입 추론을 통해 에러를 최소화하였습니다.
+컴파일 단계에서 버그를 예방할 수 있어 생산성을 향상하였습니다.
+
+### `screen`
+
+scrollview와 flatlist를 활용하여 화면의 스크로를 구현하였습니다. 기본적으로 동일한 컴포넌트들이 반복되거나
+데이터 크기가 가변적인 곳에서는 flatlist를 활용하여 화면에 보여지는 부분만을 렌더링 함으로써 퍼포먼스 향상시키고자 하였습니다.
+그리고 animated를 사용해 modal을 구현하여 북마크시 toast가 나오도록 구현하였습니다.
 
 ### `react-hooks`
 
-useState, useEffect를 활용하여 componentdidmount/update에 맞춰 렌덜이 될 때마다 특정 작업을 수행할 수 있도록하였습니다.
-그리고 useCallback, useMemo를 활용하여 함수형 컴포넌트 내부에서 발생하는 연산을 최적화하기 위해 노력하였습니다.
-마지막으로 useContext를 활용하여 전역 객체를 관리하였습니다. Redux를 쓰지 않은 이유는 cart로 오는 데이터양이 적고 
-추가 dependency 없이 사용할 수 있기 때문입니다.
+useState, useEffect를 활용하여 life cycle에 맞춰 렌더링 될 때마다 특정 작업을 수행할 수 있도록하였습니다.
+그리고 useCallback, memo를 활용하여 함수형 컴포넌트 내부에서 발생하는 연산을 최적화하기 위해 노력하였습니다.
+마지막으로 useContext를 활용하여 한 페이지안에 컴포넌트로 분리되어 있는 객체상태를 관리하였습니다.
 
-### `react-router-dom`
+### `react-native-navigation`
 
-높은 이용률, 편리함, ux 경험을 편리하게 해주기 때문에 이용하였습니다. 페이지의 로딩 없이 해당 컴포넌트를 불러와 보여줌으로써
-UX에 있어 더 만족스러운 경험을 줄 수 있습니다.
+react-native 에서는 react와는 다르게 navigation을 이용하여 stack 구조로 screen이 쌓여집니다.
+그리고 하단도 마찬가지로 bottom-navigator를 활용하여 구현하였습니다. 하지만 하단은 stack 구조가 아닌 tab으로 구성되어 있습니다.
 
-### `lodash`
+### `redux-toolkit`
 
-scroll 이벤트시 함수를 다발적으로 호출하지 않기 위해 lodash의 throttle 기능을 이용하여 콜백 함수의 주기를
-일정 시간내에는 한번만 호출하도록 하여 rendering을 최소화하였습니다.
+react 에서 가장 많이 사용하는 전역 상태관리 라이브러리를 사용하여 webinar에 대한 data를 관리하였습니다.
+그리고 redux 자체는 환경 및 코드의 복잡도가 증가하여 RTK를 활용해 사용성을 높였습니다.
 
-### `react-media`
+### `react-native-video`
 
-반응형 모듈로 query에 css 방식으로 작성하면 해당 사이즈에 맞추어 mobile <-> pc를 자유롭게 변형할 수 있어 사용하였습니다.
+영상 강의를 시청하기 위해 react-native에서 가장 널리 사용되는 video 라이브러리를 이용하여 구현하였습니다.

@@ -23,7 +23,6 @@ const Lecture = ({select}: Props) => {
           height: '100%',
         }}
         controls={true}
-        paused={true}
         resizeMode={'contain'}
         onLoad={({naturalSize}) => {
           setRatio(naturalSize.height / naturalSize.width);

@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {
+  Animated,
   Dimensions,
   FlatList,
   Image,
+  NativeScrollEvent,
+  NativeSyntheticEvent,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -18,6 +21,31 @@ type Props = {
 };
 
 const Banner = () => {
+  const [index, setIndex] = useState(0);
+  const [animation, setAnimation] = useState(new Animated.Value(0.3));
+
+  useEffect(() => {
+    hanedleAnimation();
+  }, [index]);
+
+  const hanedleAnimation = () => {
+    return Animated.timing(animation, {
+      toValue: 1.2,
+      duration: 300,
+      useNativeDriver: true,
+    }).start(() => {
+      setAnimation(new Animated.Value(0.3));
+    });
+  };
+
+  const checkBannerIndex = (e: NativeSyntheticEvent<NativeScrollEvent>) => {
+    const checkIndex = Math.floor(
+      e.nativeEvent.contentOffset.x / e.nativeEvent.layoutMeasurement.width,
+    );
+
+    setIndex(checkIndex);
+  };
+
   const _renderItem = ({item}: Props) => {
     return (
       <View style={styles.bannerContainer}>
@@ -83,7 +111,21 @@ const Banner = () => {
         bounces={false}
         pagingEnabled
         showsHorizontalScrollIndicator={false}
+        onMomentumScrollEnd={checkBannerIndex}
       />
+
+      <View style={styles.dotWrapper}>
+        {Array.from({length: BannerData?.length || 0}).map((_, idx) => (
+          <Animated.View
+            style={
+              idx === index
+                ? [styles.active_dot, {transform: [{scale: animation}]}]
+                : styles.dot
+            }
+            key={idx}
+          />
+        ))}
+      </View>
     </View>
   );
 };
@@ -153,5 +195,25 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     fontSize: 13,
+  },
+  dotWrapper: {
+    flexDirection: 'row',
+    marginTop: 5,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  active_dot: {
+    width: 7,
+    height: 7,
+    borderRadius: 10,
+    backgroundColor: '#2d2d2d',
+    marginRight: 7,
+  },
+  dot: {
+    width: 5,
+    height: 5,
+    borderRadius: 10,
+    backgroundColor: '#c4c4c4',
+    marginRight: 7,
   },
 });

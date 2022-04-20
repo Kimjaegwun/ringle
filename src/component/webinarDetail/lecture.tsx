@@ -4,23 +4,24 @@ import Video from 'react-native-video';
 
 type Props = {
   select: string;
+  width: number | string;
+  height: number | string;
 };
 
 const {width: screenWidth} = Dimensions.get('window');
 
-const Lecture = ({select}: Props) => {
+const Lecture = ({select, width, height}: Props) => {
   const [ratio, setRatio] = useState(0);
   return (
-    <View
-      style={[styles.base, {height: ratio !== 0 ? screenWidth * ratio : 200}]}>
+    <View style={styles.base}>
       <Video
         key={select}
         source={{
           uri: select,
         }}
         style={{
-          width: '100%',
-          height: '100%',
+          width,
+          height,
         }}
         controls={true}
         resizeMode={'contain'}
